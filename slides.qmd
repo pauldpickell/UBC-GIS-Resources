@@ -1,0 +1,128 @@
+---
+title: "GIS Resources at The University of British Columbia and Beyond"
+subtitle: "GIS Day November 21, 2024"
+author: "Prof. Paul D. Pickell"
+format: revealjs
+editor: visual
+---
+
+## Overview
+
+-   A Brief Canadian History of GIS
+
+-   Demos in QGIS
+
+-   Spatial Temporal Asset Catalogs (STAC)
+
+-   British Columbia GIS Data Resources
+
+-   UBC GIS Data Resources
+
+-   Open Educational Resources at UBC
+
+-   GIS Coursework in Faculty of Forestry
+
+## A Brief Canadian History of GIS
+
+![](images/canada-GIS.png){fig-align="center"}
+
+## A Brief Canadian History of GIS
+
+-   1951 - Census shows rapid urbanization
+
+-   1957 - Canadian Senate investigates the "Land Use Problem in Canada"
+
+-   1963 - Canada Land Inventory established, work on CGIS begins
+
+-   1970s - 12,000 map sheets are produced, the first digital self-portrait of a nation
+
+## A Brief Canadian History of GIS
+
+![The first soil capability map produced for the CLI in 1968 showing Toronto. Queen's Printer, Public Domain.](images/cli-soil-capability-1968.jpg){fig-align="center"}
+
+## A Brief Canadian History of GIS
+
+![IBM Scanner, 1963. Canada's Museums of Science and Innovation, Ingenium collection. Photo by Bower (2018). Remained in daily operation from 1966-1983.](images/cgis-scanner.png){fig-align="center"}
+
+## A Brief Canadian History of GIS
+
+![Frame from ["Data for Decision"](https://www.nfb.ca/film/data_for_decision/), a National Film Board of Canada documentary, directed by Michael Millar, 1967.](images/cgis-tape.png){fig-align="center"}
+
+## A Brief Canadian History of GIS
+
+![](images/vancouver-clds-1982.jpg){fig-align="center"}
+
+## A Brief Canadian History of GIS
+
+![Kerr, M. A. (1985). Okanagan Fruitlands Land-Use Change Dynamics and the Impact of Federal Programs. Lands Directorate, Environment Canada.](images/okanagan-fruitlands-1985.png){fig-align="center" height="400"}
+
+## A Brief Canadian History of GIS
+
+![](images/okanagan-fruitlands-1985-2.png){.absolute top="100" left="0" height="75%"}
+
+![](images/okanagan-fruitlands-1985-3.png){.absolute top="100" right="0" height="75%"}
+
+## Spatial Temporal Asset Catalogs (STAC)
+
+[Spatial Temporal Asset Catalog (STAC) Browser](https://radiantearth.github.io/stac-browser/#/?.language=en)
+
+To access public AWS data, first set environment variable in QGIS through the Python Console (Plugins \> Python Console):
+
+```         
+import os
+os.environ['AWS_NO_SIGN_REQUEST'] = 'YES'
+```
+
+## British Columbia GIS Data Resources
+
+[LidarBC Portal](https://lidar.gov.bc.ca/pages/download-discovery)
+
+[LidarBC ArcGIS Feature Server](https://services6.arcgis.com/ubm4tcTYICKBpist/ArcGIS/rest/services/LiDAR_BC_S3_Public/FeatureServer)
+
+[BC Data Catalogue](https://catalogue.data.gov.bc.ca/)
+
+[BC Data Catalogue Web Feature Server (WFS)](http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilities)
+
+## UBC GIS Data Resources
+
+[MGEM Data Store](https://206-12-122-94.cloud.computecanada.ca/)
+
+[UBC Campus and Community Planning](https://github.com/UBCGeodata/ubc-geospatial-opendata)
+
+[UBC ArcGIS Online](https://ubc.maps.arcgis.com/home/index.html)
+
+## Open Educational Resources at UBC
+
+[Geomatics for Environmental Management: An Open Textbook for Students and Practitioners](https://opengeomatics.ca)
+
+[UBC Geomatics Community of Practice](https://cop.opengeomatics.ca)
+
+## GIS Coursework in the Faculty of Forestry {.smaller}
+
+[CONS 127 - Observing the Earth from Space](https://vancouver.calendar.ubc.ca/course-descriptions/courses/consv-127-observing-earth-space) (WT1/2, ST1 online 2024)
+
+[NRES 241 - Introduction to Geomatics for Natural Resource Management](https://vancouver.calendar.ubc.ca/course-descriptions/subject/nresv) (WT1/2 2024)
+
+[NRES 341 - Intermediate Geomatics for Natural Resource Management](https://vancouver.calendar.ubc.ca/course-descriptions/subject/nresv) (WT2 2024)
+
+[NRES 441 - Advanced Geomatics for Natural Resource Management](https://vancouver.calendar.ubc.ca/course-descriptions/subject/nresv) (WT2 2025)
+
+[FRST 538 - Advanced Geomatics for Natural Resource Management](https://vancouver.calendar.ubc.ca/course-descriptions/subject/frstv) (WT1 2025)
+
+[UFOR 511 - Geomatics Principles and Applications](https://vancouver.calendar.ubc.ca/course-descriptions/subject/uforv) (ST2 2025)
+
+[Master of Geomatics for Environmental Management (MGEM)](https://forestry.ubc.ca/future-students/graduate/professional-masters-degrees/master-of-geomatics-for-environmental-management/)
+
+-   GEM 510 - GIS for Forestry and Conservation
+
+-   GEM 511 - Advanced GIS for Environmental Management
+
+-   GEM 520 - Remote Sensing for Ecosystem Managmenet
+
+-   GEM 521 - Advanced Earth Observation and Image Processing
+
+-   GEM 530 - Geospatial Data Analysis
+
+## Thank you!
+
+paul.pickell\@ubc.ca

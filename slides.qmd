@@ -50,11 +50,11 @@ editor: visual
 
 ## A Brief Canadian History of GIS
 
-![](images/vancouver-clds-1982.jpg){fig-align="center"}
+![Redpath, K. (1982). Canada Land Use Monitoring Program, Total Land Use Change in Urban Centred Regions, Vancouver, 1967-1976. Report No. 12. Lands Directorate, Environment Canada, Ottawa.](images/vancouver-clds-1982.jpg){fig-align="center"}
 
 ## A Brief Canadian History of GIS
 
-![Kerr, M. A. (1985). Okanagan Fruitlands Land-Use Change Dynamics and the Impact of Federal Programs. Lands Directorate, Environment Canada.](images/okanagan-fruitlands-1985.png){fig-align="center" height="400"}
+![Kerr, M. A. (1985). Okanagan Fruitlands Land-Use Change Dynamics and the Impact of Federal Programs. Lands Directorate, Environment Canada.](images/okanagan-fruitlands-1985.png){fig-align="center" width="248"}
 
 ## A Brief Canadian History of GIS
 
@@ -66,9 +66,9 @@ editor: visual
 
 [Spatial Temporal Asset Catalog (STAC) Browser](https://radiantearth.github.io/stac-browser/#/?.language=en)
 
-To access public AWS data, first set environment variable in QGIS through the Python Console (Plugins \> Python Console):
-
 ```         
+# To access public AWS data, first set environment variable in QGIS through the Python Console (Plugins > Python Console)
+
 import os
 os.environ['AWS_NO_SIGN_REQUEST'] = 'YES'
 ```
